@@ -21,7 +21,7 @@ export default function BasicExample() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename={'/hrate'}>
         <header className="App-header">
           <div className="App-header-content">
             <Link to="/hrate" className="App-branding">
@@ -31,13 +31,13 @@ export default function BasicExample() {
           </div>
         </header>
         <Switch>
-          <Route exact path="/hrate">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/hrate/terms">
+          <Route exact path="/terms">
             <Terms />
           </Route>
-          <Route exact path="/hrate/privacy">
+          <Route exact path="/privacy">
             <Privacy />
           </Route>
         </Switch>
@@ -54,10 +54,10 @@ export default function BasicExample() {
             </p>
             <div className="Footer-fill" />
             <p>
-              <Link to="/hrate/privacy">Privacy Policy 🔒</Link>
+              <Link to="privacy">Privacy Policy 🔒</Link>
             </p>
             <p>
-              <Link to="/hrate/terms">Terms & Conditions 📃</Link>
+              <Link to="terms">Terms & Conditions 📃</Link>
             </p>
           </div>
         </footer>
