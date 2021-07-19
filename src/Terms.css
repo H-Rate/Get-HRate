@@ -1,0 +1,14 @@
+.Terms-main {
+  flex: 1;
+  background-color: #010101;
+  padding: 24pt;
+  align-self: stretch;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.Terms-content {
+  flex: 1;
+  max-width: 820pt;
+}

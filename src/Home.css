@@ -1,0 +1,110 @@
+.Home {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #010101;
+}
+
+.Home-main {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 16pt;
+  margin-right: 16pt;
+}
+
+.Home-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 820pt;
+  min-width: 200pt;
+}
+
+.Description {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-right: 8pt;
+  min-width: 200pt;
+}
+
+.Title {
+  font-size: 1.5rem;
+}
+
+.Vertical-divider {
+  width: 4pt;
+  border-radius: 2pt;
+  height: 70vh;
+  background-color: #131313;
+}
+
+.Downloads {
+  flex: 1;
+  align-self: stretch;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.Section {
+  padding-bottom: 16pt;
+}
+
+.Heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8pt;
+}
+
+.Section-body {
+  line-height: 1.8;
+}
+
+.Download-button-wrHomeer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding-top: 24pt;
+  padding-bottom: 24pt;
+}
+
+.Download-button {
+  text-align: center;
+  height: 50pt;
+  border-radius: 10pt;
+  background: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24pt;
+  cursor: pointer;
+  min-width: 200pt;
+}
+
+.Download-button>span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .Vertical-divider {
+    height: 0px;
+  }
+
+  .Download-button  {
+    margin: 0pt;
+    margin-top: 8pt;
+    margin-bottom: 16pt;
+  }
+}
