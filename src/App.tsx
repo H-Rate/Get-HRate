@@ -24,7 +24,7 @@ export default function BasicExample() {
       <Router basename={'/hrate'}>
         <header className="App-header">
           <div className="App-header-content">
-            <Link to="/hrate" className="App-branding">
+            <Link to="/" className="App-branding">
               <img src={logo} className="App-logo" />
               <h2 className="App-title">HRate</h2>
             </Link>
