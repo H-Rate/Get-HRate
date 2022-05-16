@@ -1,126 +1,127 @@
 html {
-  background-color: #010101;
-  color: #ffffffdd;
+	background-color: #010101;
+	color: #ffffffdd;
 }
 
 a {
-  cursor: pointer!important;
-  padding: 4pt;
-  border-radius: 5pt;
-  transition: background-color 0.2s;
+	cursor: pointer !important;
+	padding: 4pt;
+	border-radius: 5pt;
+	transition: background-color 0.2s;
 }
 
 a:link {
-  text-decoration: none;
-  color: inherit;
-  cursor: auto;
+	text-decoration: none;
+	color: inherit;
+	cursor: auto;
 }
 
 a:visited {
-  text-decoration: none;
-  color: inherit;
-  cursor: auto;
+	text-decoration: none;
+	color: inherit;
+	cursor: auto;
 }
 
 a:hover {
-  background-color: #232323;
+	background-color: #232323;
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #010101;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #010101;
 }
 
 .App-header {
-  padding-top: 8pt;
-  min-height: 44pt;
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+	padding-top: 8pt;
+	min-height: 44pt;
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
 }
 
 .App-header-content {
-  max-width: 820pt;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+	max-width: 820pt;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .App-branding {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .App-logo {
-  height: 50pt;
-  width: 50pt;
-  padding-right: 20pt;
+	height: 50pt;
+	width: 50pt;
+	padding-right: 20pt;
 }
 
 .App-title {
-  margin: 0;
+	margin: 0;
 }
 
 .App-footer {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 24pt;
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 24pt;
 }
 
 .App-footer-content {
-  flex: 1;
-  max-width: 820pt;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .App-footer p {
-  flex: 0 1 170px;
-  white-space: nowrap;
-  margin-left: 16pt;
-  margin-right: 16pt;
-  opacity: 0.7;
-  user-select: none;
+	flex: 0 1 170px;
+	white-space: nowrap;
+	margin-left: 16pt;
+	margin-right: 16pt;
+	opacity: 0.7;
+	user-select: none;
 }
 
 .Footer-fill {
-  flex: 0;
+	flex: 0;
 }
 
 @media only screen and (max-width: 768px) {
-  .App-header {
-    justify-content: flex-start;
-  }
+	.App-header {
+		justify-content: flex-start;
+	}
 
-  .Footer-fill {
-    flex: 0;
-    display: none;
-  }
+	.Footer-fill {
+		flex: 0;
+		display: none;
+	}
 }
 
 .With-love {
-  font-size: 3rem;
-  position: absolute;
-  top: -5pt;
-  left: 30%;
-  opacity: 0;
-  transform: scale(0.5);
-  transition: all 0.5s;
+	font-size: 3rem;
+	position: absolute;
+	top: -5pt;
+	left: 30%;
+	opacity: 0;
+	transform: scale(0.5);
+	transition: all 0.5s;
 }
 
-.With-love[animating=true] {
-  opacity: 1;
-  top: -50pt;
-  transform: scale(1);
+.With-love[animating="true"] {
+	opacity: 1;
+	top: -50pt;
+	transform: scale(1);
 }
