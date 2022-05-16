@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Get HRate Website
+
+[Get HRate](https://an23lm.me/hrate)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
