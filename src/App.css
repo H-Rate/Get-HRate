@@ -86,7 +86,7 @@ a:hover {
 }
 
 .App-footer p {
-  flex: 0 1 180px;
+  flex: 0 1 170px;
   white-space: nowrap;
   margin-left: 16pt;
   margin-right: 16pt;
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .Footer-fill {
-  flex: 1 1 0px;
+  flex: 0;
 }
 
 @media only screen and (max-width: 768px) {

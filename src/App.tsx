@@ -6,6 +6,7 @@ import Terms from "./Terms";
 import logo from "../src/logo.svg";
 import { useState } from "react";
 import HTMLAttributes from "./index.d";
+import Troubles from "./Troubles";
 
 export default function BasicExample() {
   const [withLoveAnimating, setWithLoveAnimating] = useState("false")
@@ -40,6 +41,9 @@ export default function BasicExample() {
           <Route exact path="/privacy">
             <Privacy />
           </Route>
+          <Route exact path="/troubleshoot">
+            <Troubles />
+          </Route>
         </Switch>
         <footer className="App-footer">
           <div className="App-footer-content">
@@ -53,6 +57,9 @@ export default function BasicExample() {
               <a href="https://an23lm.me">Hire Me! 👨‍💻</a>
             </p>
             <div className="Footer-fill" />
+            <p>
+              <Link to="troubleshoot">Troubleshoot 🔧</Link>
+            </p>
             <p>
               <Link to="privacy">Privacy Policy 🔒</Link>
             </p>
